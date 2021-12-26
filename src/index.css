@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: scroll;
+}
+.home-container {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 80% 20%;
+  margin-bottom: 30px;
+}

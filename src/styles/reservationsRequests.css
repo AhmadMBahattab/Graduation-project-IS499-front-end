@@ -1,0 +1,41 @@
+.requests-container {
+  margin: auto;
+  padding: 1%;
+  padding-left: 5%;
+  width: 100%;
+  background-color: rgba(238, 238, 238, 0.527);
+}
+.single-request-container {
+  background-color: white;
+  width: 95%;
+  padding: 1%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.request-image img {
+  margin: auto;
+  width: 90%;
+  height: 90%;
+}
+.requets-info {
+  background-color: rgb(231, 231, 231);
+  font-size: 20px;
+  text-align: center;
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.requets-info div {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+.requests-buttons-container {
+  text-align: center;
+  font-size: 20px;
+  margin: auto;
+  width: 100%;
+  padding: 5%;
+}
+.requests-buttons-container button {
+  margin-left: 2%;
+}

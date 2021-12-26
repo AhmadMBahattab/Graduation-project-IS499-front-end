@@ -1,0 +1,33 @@
+.footer {
+  color: white;
+  background-color: rgba(14, 9, 39, 0.897);
+  padding-top: 20px;
+  padding-left: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.apps-container {
+  margin: auto;
+  width: 30%;
+}
+.apps-container ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 5%;
+}
+.apps-container ul li {
+  font-size: 30px;
+  margin-left: 5%;
+}
+.apps-container ul li:hover {
+  font-size: 30px;
+  margin-left: 5%;
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+.list-unstyled a {
+  text-decoration: none;
+  color: white;
+}

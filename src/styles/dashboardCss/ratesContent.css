@@ -1,0 +1,59 @@
+.dashboard-rates-container {
+  padding: 1%;
+  margin: auto;
+  width: 90%;
+  background-color: rgb(218, 218, 218);
+}
+.barinfo-rate-container {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: white;
+  padding: 1%;
+  margin-top: 1%;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom-color: rgb(196, 196, 196);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.single-rate-container {
+  color: gray;
+  padding: 1%;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(214, 214, 214, 0.63);
+}
+.user-rate-info {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.profile-image img {
+  text-align: center;
+  height: 90%;
+  width: 90%;
+}
+
+.post-rate-info {
+  text-align: center;
+  display: flex;
+}
+.Post-imge img {
+  text-align: center;
+  height: 80%;
+  width: 80%;
+}
+.Post-name {
+  margin: 10px;
+}
+.rate-given {
+  font-size: 20px;
+  margin-left: 30%;
+  padding-top: 10%;
+  display: flex;
+}

@@ -1,0 +1,130 @@
+.myChalatePage-Container {
+}
+
+.myChaletes-container {
+  height: auto;
+  margin: auto;
+  padding: 2%;
+  background-color: rgba(240, 240, 240, 0.637);
+  position: relative;
+  width: 90%;
+  display: grid;
+  row-gap: 10px;
+}
+.myChalet-singleChalete-container {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  font-family: "Times New Roman", Times, serif;
+  height: 100%;
+  border-color: rgba(128, 128, 128, 0.301);
+  border-style: solid;
+  border-width: 1px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  cursor: pointer;
+  text-decoration: none;
+}
+.myChalet-singleChalete-container:hover {
+  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.404);
+
+  transition: 0.5s;
+}
+.myChalet-image-container {
+  width: 100%;
+}
+.myChalet-image {
+  width: 100%;
+  height: 70%;
+}
+.myChalet-all-checkbox-container {
+  position: relative;
+  bottom: 20px;
+  padding-bottom: 10%;
+  width: 90%;
+}
+.myChalet-pitches-checkbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+}
+.myChalet-type-checkbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+}
+
+.myChalet-info {
+  max-width: 100%;
+}
+.myChalet-name {
+}
+.myChalet-rate {
+  margin-top: 3%;
+  display: flex;
+}
+.myChalet-rate p {
+  position: relative;
+  margin-left: 5px;
+  top: 5px;
+}
+.myChalet-price {
+  margin-top: 3%;
+}
+.myChalet-phoneNumber {
+  margin-top: 3%;
+}
+.myChalet-location {
+  margin-top: 3%;
+}
+.myChalet-area {
+  margin-top: 3%;
+}
+.myChalet-discription {
+  font-size: 20px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  width: 100%;
+  position: relative;
+}
+.myChalet-discription-p {
+}
+.create-post-btn {
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+.edit-icon-button {
+  background-color: rgba(0, 128, 0, 0);
+  position: relative;
+  width: 40px;
+  left: 80%;
+  border: none;
+}
+.edit-icon-button:hover {
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.151);
+}
+.delete-icon-button {
+  background-color: rgba(0, 128, 0, 0);
+  position: relative;
+  width: 40px;
+  left: 80%;
+  border: none;
+}
+.delete-icon-button:hover {
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.151);
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.623);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}

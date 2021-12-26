@@ -1,0 +1,20 @@
+.project-info-container {
+  margin: auto;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 60%;
+}
+.project-info-container h1 {
+  color: gray;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+.project-info-container p {
+  font-family: "Times New Roman", Times, serif;
+  color: gray;
+  font-size: 20px;
+}
+.project-info-container img {
+  width: 50%;
+  height: 80%;
+}

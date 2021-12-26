@@ -1,0 +1,30 @@
+.search-container {
+  margin: auto;
+  margin-bottom: 1%;
+
+  width: 40%;
+}
+.search-container input {
+  padding-left: 40px;
+}
+.search-container input:hover {
+  background-color: rgba(0, 0, 0, 0.041);
+  transition: 0.5s;
+}
+
+.searchBox {
+  border-color: gray;
+  border-width: 1px;
+  padding: 5px;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  width: 35%;
+}
+
+.search-icon {
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 2px;
+}

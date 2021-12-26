@@ -1,0 +1,30 @@
+.not-fond-container {
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.not-fond-container h1 {
+  font-weight: bolder;
+
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 5%;
+}
+.not-found-status {
+  color: rgb(44, 7, 131);
+  font-size: 80px;
+
+  border-right: gray;
+  border-right-width: 0.2px;
+  border-right-style: solid;
+}
+.not-fonund-info h1 {
+  color: rgb(1, 1, 29);
+  font-size: 50px;
+}
+.not-fonund-info p {
+  color: gray;
+  font-size: 20px;
+}

@@ -1,0 +1,25 @@
+.list-position {
+  position: relative;
+  top: 10px;
+}
+.list-group {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+}
+.list-group-item {
+  cursor: pointer;
+}
+.list-group .list-group-item:hover {
+  cursor: pointer;
+  background-color: royalblue;
+  color: white;
+  font-size: 20px;
+}
+.list-group-item:active {
+  background-color: royalblue;
+}
+.sortBy-container {
+  position: relative;
+  width: 20%;
+}

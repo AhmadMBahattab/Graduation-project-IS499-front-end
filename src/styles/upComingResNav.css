@@ -1,0 +1,60 @@
+.reservations-navbar-container {
+  background-color: white;
+  padding-left: 4%;
+  padding-top: 2%;
+
+  /* border-bottom-color: gray;
+  border-bottom-width: 0.1mm;
+  border-bottom-style: solid; */
+}
+.reservations-Navbar-links {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-decoration: none;
+  margin: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.reservations-Navbar-links .active h5 {
+  padding-top: 7%;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.reservations-Navbar-links a {
+  text-decoration: none;
+  color: gray;
+}
+
+.reservations-Navbar-links a:hover {
+  transition: 1s;
+  color: gray;
+}
+.requests-reservations-container {
+}
+.Requests-number {
+}
+.notification {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+}
+
+.notification .badge {
+  position: absolute;
+  top: -15%;
+  right: -15%;
+  padding: 2% 5%;
+  border-radius: 50%;
+  color: white;
+}
+.testNave {
+  background-color: blue;
+}

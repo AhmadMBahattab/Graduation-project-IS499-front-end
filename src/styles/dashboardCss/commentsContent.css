@@ -1,0 +1,53 @@
+.dashboard-comments-container {
+  padding: 1%;
+  margin: auto;
+  width: 100%;
+  background-color: rgb(218, 218, 218);
+}
+.dashboard-single-comment {
+  padding: 1%;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 1fr;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(214, 214, 214, 0.63);
+}
+.dashboard-userinfo-section {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 3.5fr;
+}
+.profile-image {
+  text-align: center;
+}
+.profile-image img {
+  text-align: center;
+  height: 70%;
+  width: 70%;
+}
+.profile-info {
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+.dashboard-post-section {
+  background-color: rgb(117, 117, 212);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.post-image img {
+  height: 90%;
+  width: 90%;
+}
+
+.dashboard-comment-section {
+  display: grid;
+  grid-template-columns: 20fr 1fr;
+}
+.dashboard-comment-section button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}

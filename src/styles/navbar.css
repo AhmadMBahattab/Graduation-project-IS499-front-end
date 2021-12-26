@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.nav-container {
+  background-color: rgba(9, 6, 24, 0.897);
+}
+.nav__links li,
+.nav-titles,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.nav-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.nav-logo img {
+  height: 80px;
+  width: 200px;
+}
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav__links li .nav-titles {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li .nav-titles:hover {
+  color: rgb(62, 102, 165);
+}
+/* .navbar {
+  background-color: rgb(23, 3, 34);
+  margin-bottom: 30px;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 20px;
+  line-height: 40px;
+  width: 100%;
+}
+
+.nav-item {
+  font-size: 25px;
+  margin-left: 25px;
+}
+.nav-item:hover {
+  background-color: rgba(32, 27, 27, 0.548);
+
+  transition: 0.5s;
+}
+.nav-link {
+  font-size: 25px;
+  color: violet;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.mynavbar {
+  margin: 10;
+  padding: 10;
+} */

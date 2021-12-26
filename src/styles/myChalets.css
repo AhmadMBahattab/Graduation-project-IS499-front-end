@@ -1,0 +1,38 @@
+.myChalets {
+  display: grid;
+  grid-template-columns: 22% 78%;
+}
+
+.myChalets-sidenav {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(9, 6, 24, 0.897);
+  padding-top: 20px;
+  padding-bottom: 100%;
+}
+
+.myChalets-sidenav a {
+  padding: 20px;
+  padding-left: 30px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  display: block;
+}
+
+.myChalets-sidenav a:hover {
+  color: #0d248d;
+  transition: 0.5s;
+}
+
+.myChalets-mane-area {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgba(255, 255, 255, 0.945);
+}
+.myChalets-sidenav .active {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition: 0.5s;
+}

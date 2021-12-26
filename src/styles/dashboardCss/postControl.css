@@ -1,0 +1,78 @@
+.dashboard-posts-container {
+  height: auto;
+  margin: auto;
+  padding: 3%;
+  background-color: rgba(216, 216, 216, 0.637);
+  position: relative;
+  width: 80%;
+  display: grid;
+  row-gap: 10px;
+}
+.dashboard-single-post {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  font-family: "Times New Roman", Times, serif;
+  height: 100%;
+  border-color: rgba(128, 128, 128, 0.301);
+  border-style: solid;
+  border-width: 1px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  cursor: pointer;
+  text-decoration: none;
+}
+.dashboard-single-post:hover {
+  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.404);
+
+  transition: 0.5s;
+}
+.dashboard-image-checkbox-container {
+  width: 100%;
+}
+.dashboard-post-image {
+  width: 100%;
+  height: 70%;
+}
+.dashboard-post-image img {
+  width: 90%;
+  height: 90%;
+}
+.myChalet-checkbox-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+}
+.dashboard-post-info {
+  max-width: 100%;
+}
+.dashboard-post-name {
+  margin-top: 3%;
+}
+.dashboard-post-rate {
+  margin-top: 3%;
+  display: flex;
+}
+.dashboard-post-rate p {
+  position: relative;
+  margin-left: 5px;
+  top: 5px;
+}
+.dashboard-post-price {
+  margin-top: 3%;
+}
+.dashboard-post-phoneNumber {
+  margin-top: 3%;
+}
+.dashboard-post-location {
+  margin-top: 3%;
+}
+.dashboard-post-area {
+  margin-top: 3%;
+}
+.dashboard-post-discription {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  width: 100%;
+  position: relative;
+}

@@ -1,0 +1,16 @@
+.reservation-container {
+  width: 50%;
+  margin: auto;
+  padding: 5%;
+  background-color: white;
+  transition-delay: 4s;
+}
+
+.reserve-buttons-container {
+  text-align: center;
+  margin: auto;
+  padding: 2%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

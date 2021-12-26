@@ -1,0 +1,173 @@
+.dashboard-users-container {
+  padding: 2%;
+}
+.search-users {
+  margin: auto;
+  width: 50%;
+}
+.search-users-icon {
+  position: absolute;
+  color: gray;
+  font-size: 20px;
+  padding-left: 0.5%;
+}
+.input-position {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.barinfo-container {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: white;
+  padding: 1%;
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: 4fr 2fr 1fr;
+  border-bottom-color: rgb(196, 196, 196);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.single-user-container {
+  background-color: white;
+  padding: 2%;
+  display: grid;
+  grid-template-columns: 4fr 2fr 1fr;
+  border-bottom-color: rgb(196, 196, 196);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.user-info-container {
+  padding: 2%;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.user-image img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border-color: rgb(199, 198, 198);
+  border-width: 1px;
+  border-style: solid;
+}
+.user-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.user-info p {
+  font-size: 20px;
+  color: gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.user-states-container {
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.user-states-container p {
+  color: grey;
+  font-size: 20px;
+}
+.user-buttons-container {
+  margin: auto;
+  width: 60%;
+}
+.user-buttons-container button {
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.user-buttons-container .allow-edit-delete:hover {
+  cursor: pointer;
+  background-color: rgba(146, 146, 146, 0.171);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.edit-and-delete:hover {
+  cursor: not-allowed;
+}
+
+/*All classes about delete user form  */
+
+.delete-user-container {
+  margin: auto;
+  margin-top: 0%;
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  width: 50%;
+}
+.back-button {
+  padding: 8px;
+  color: black;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  position: relative;
+  left: 95%;
+}
+.back-button:hover {
+  padding: 8px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.082);
+  transition: 0.5s;
+}
+.delete-user-image {
+  text-align: center;
+}
+.delete-user-image img {
+  border-radius: 100%;
+  width: 20%;
+  height: 20%;
+}
+.delete-user-information {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.delete-user-information p {
+  font-size: 20px;
+}
+.delete-user-checkbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.delete-user-buttons {
+  margin: auto;
+  width: 50%;
+}
+.edit-user-container {
+  background-color: white;
+  margin: auto;
+  margin-top: 5%;
+  padding: 2%;
+  width: 50%;
+}
+.edit-user-image {
+  text-align: center;
+}
+.edit-user-image img {
+  border-radius: 100%;
+  width: 30%;
+  height: 30%;
+}
+.edit-user-information {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+}
+.edit-user-information p {
+  font-size: 20px;
+}
+.admin-role {
+  display: flex;
+  justify-content: space-around;
+}
+.edit-user-buttons {
+  margin: auto;
+  width: 10%;
+}
