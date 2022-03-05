@@ -70,10 +70,6 @@ const MapGl = ({ posts }) => {
                     {" "}
                     <img
                       src="https://freesvg.org/img/map-pin.png"
-                      // src={
-                      //   require(`../../Photos/pngtree-map-location-marker-icon-in-red-png-image_1722078.jpg`)
-                      //     .default
-                      // }
                       width={viewport.zoom * 7}
                       height={viewport.zoom * 7}
                     />
